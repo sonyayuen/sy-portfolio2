@@ -1,9 +1,8 @@
 
-import { SelectedPage, ProjectType } from "@/shared/types";
+import {ProjectType}  from "@/shared/types";
 import citygirl from  "@/assets/citygirl.png";
 import sheCodesLaptop from "@/assets/sheCodesLaptop.png";
 import pd from "@/assets/pd.png";
-import { Link } from "react-router-dom";
 import ProjectCard from './ProjectCard';
 import Navbar from "../navbar";
 
@@ -43,11 +42,8 @@ const projects: Array<ProjectType> = [
 
 
 
-type Props = {
-  //setSelectedPage: (value: SelectedPage) => void;
-};
 
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <div className="flex justify-center  w-full p-8   bg-white ">
 

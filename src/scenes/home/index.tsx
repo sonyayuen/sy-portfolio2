@@ -1,23 +1,19 @@
 //TSRAFCE
-import { SelectedPage } from "@/shared/types";
+
 import ProfilePic from  "@/assets/ProfilePic.png";
 import pandadreamScreen from  "@/assets/pandadreamScreen.png";
 import cdmxView from  "@/assets/cdmxView.png";
 import linkedinWhiteBig from  "@/assets/linkedinWhiteBig.png";
 import gtBuzz from  "@/assets/gtBuzz.png";
 import {ChevronRightIcon} from "@heroicons/react/24/solid";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link } from "react-router-dom";
-import Projects from "@/scenes/projects";
 
 
 
-type Props = {
-    // selectedPage: SelectedPage,
-    // setSelectedPage: (value: SelectedPage) => void;  
-}
 
-const Home = (props: Props) => {
+
+
+const Home = () => {
   return (
     
     <section className="flex justify-center items-center  min-[320px] overflow-hidden  h-screen  bg-white   "> 

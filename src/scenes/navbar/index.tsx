@@ -1,17 +1,14 @@
-import { useState } from "react";
-import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid";
-import Logo from "@/assets/Logo.png";
-import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
+
+//import useMediaQuery from "@/hooks/useMediaQuery";
 import { Link } from "react-router-dom";
 
 
 
 
-const Navbar = (props: Props) => {
-  const flexBetween = "flex items-center justify-between"; //gonna use a lot so made it a constant
+const Navbar = () => {
+  //const flexBetween = "flex items-center justify-between"; //gonna use a lot so made it a constant
   //const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)"); //bool to lyk if you ar eabove the width
+  //const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)"); //bool to lyk if you ar eabove the width
 
   
   return (

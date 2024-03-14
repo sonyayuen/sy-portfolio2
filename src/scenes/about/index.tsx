@@ -1,10 +1,9 @@
 import ProfilePic from  "@/assets/ProfilePic.png";
-import { Link } from "react-router-dom";
 import Navbar from "../navbar";
 
-type Props = {}
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <section className=" w-full flex justify-center  gap-8 bg-white py-8">
 

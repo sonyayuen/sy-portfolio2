@@ -1,16 +1,14 @@
-import Navbar from "@/scenes/navbar";
+
 import Home from "@/scenes/home";
 import Projects from "@/scenes/projects";
 import About from "@/scenes/about";
 import Resume from "@/scenes/resume";
-import { useState } from "react";
-import { SelectedPage } from "@/shared/types";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
+  
   
 
   return (
