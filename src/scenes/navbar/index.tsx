@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className=" w-full">
 
       {/* MINI NAV BAR */}
-      <div className="flex flex-row w-full  rounded-3xl  gap-8 h-[45px] ">
+      <div className="flex flex-row w-full  rounded-3xl  sm:gap-8 gap-2 h-[45px] ">
 
         <Link to="/" className="w-1/3 h-full flex justify-center items-center bg-[#bde0fe] rounded-3xl  ">
           <p className=" text-lg  text-center  text-black   ">Home</p>
