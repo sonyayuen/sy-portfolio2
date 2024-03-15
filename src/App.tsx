@@ -26,7 +26,7 @@ function App() {
 
 
 
-  <BrowserRouter  > 
+  <BrowserRouter basename={"/<sy-portfolio2/"} > 
     <Routes> 
       
       <Route path= "/" element={<Home  />} /> //sets home page
