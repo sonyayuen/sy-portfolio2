@@ -5,6 +5,8 @@ import sheCodesLaptop from "@/assets/sheCodesLaptop.png";
 import pd from "@/assets/pd.png";
 import ProjectCard from './ProjectCard';
 import Navbar from "../navbar";
+//import sheCodesMain from "@/assets/shecodesMain.png";
+import comingsoon from "@/assets/comingsoon.png";
 
 
 // Array of my prpjects, makes it easier to add later bc can map array to component later
@@ -14,28 +16,32 @@ const projects: Array<ProjectType> = [
       description:
         "An educational technology platform designed to teach girls computing",
       image: sheCodesLaptop,
-      color: "bg-[#bde0fe]",
+      color: "bg-stone-200",
+      link: "/sheCodes",
     },
     {
       name: "Panda Dream",
       description:
-      "An innovative sleep system a part of Georgia Tech's CREATE-X capstone class adding random ",
+      "An innovative sleep system a part of Georgia Tech's CREATE-X capstone class ",
       image: pd,
-      color: "bg-[#bde0fe]",
+      color: "bg-[#E3F0FF]",
+      link: "/pandaDream",
     },
     {
       name: "City Girl",
       description:
-        "A fun and exciting Game Boy Advance platformer game developed using C",
+        "A fun and exciting Game Boy Advance platformer game developed using C [Coming Soon]",
       image: citygirl,
-      color: "bg-[#bde0fe]",
+      color: "bg-[#B8BFFF]",
+      link: "/sheCodes",
     },
     {
       name: "Food Friends",
       description:
-        "less text",
-      image: sheCodesLaptop,
-      color: "bg-[#bde0fe]",
+        "coming soon",
+      image: comingsoon,
+      color: "bg-[#E3F0FF]",
+      link: "/sheCodes",
     },
    
 ];
@@ -45,31 +51,37 @@ const projects: Array<ProjectType> = [
 
 const Projects = () => {
   return (
-    <div className="flex justify-center  w-full p-8   bg-white ">
+    <section className="flex justify-center  sm:p-8 p-4  overscroll-y-none  bg-white dark:bg-[#181A21]">
 
       
-      <div className="gap-8 flex flex-col items-center w-4/5">
+      <div className="h-[750px] flex flex-col  items-center   p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%] ">
 
         <Navbar></Navbar>
 
-        <h1 className=" flex w-full text-left text-3xl text-black pt-12 ">Projects</h1>
         
 
+       
+        
+        <div className="overflow-scroll snap-y flex flex-col gap-8 rounded-3xl ">
+          {projects.map((item: ProjectType, index) => (
+              <ProjectCard
+                key={`${item.name}-${index}`}
+                name={item.name}
+                description={item.description}
+                image={item.image}
+                color={item.color}
+                link={item.link}
+              />
+            ))}
+
+        </div>
 
 
         {/* <ul className="flex flex-col justify-center items-center w-full gap-8 mt-36"> */}
 
 
         
-        {projects.map((item: ProjectType, index) => (
-            <ProjectCard
-              key={`${item.name}-${index}`}
-              name={item.name}
-              description={item.description}
-              image={item.image}
-              color={item.color}
-            />
-          ))}
+        
       </div>
 
      
@@ -79,7 +91,7 @@ const Projects = () => {
 
       
 
-    </div>
+    </section>
     
   )
 }

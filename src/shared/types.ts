@@ -14,6 +14,7 @@ export interface ProjectType {
   description?: string;
   image: string;
   color: string;
+  link: string;
 }
 
 //need to eventually add project pages here
