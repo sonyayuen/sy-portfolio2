@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import Navbar from "../navbar";
 import sheCodesMain from "@/assets/shecodesMain.png";
 //import coolKids from "@/assets/CoolKidsBust.png";

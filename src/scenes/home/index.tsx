@@ -8,6 +8,7 @@ import gtBuzz from  "@/assets/gtBuzz.png";
 //import {ChevronRightIcon} from "@heroicons/react/24/solid";
 import Navbar from "../navbar";
 import sheCodesLaptop from "@/assets/sheCodesLaptop.png";
+import React from "react";
 
 
 

@@ -10,6 +10,7 @@ import pandaInterview from "@/assets/pandaInterview.mp4";
 import pandaGraph1 from "@/assets/pandaGraph1.png";
 import pandaGraph2 from "@/assets/pandaGraph2.png";
 import pandaWhiteboard from "@/assets/pandaWhiteboard.jpg";
+import React from "react";
 
 
 //type Props = {}

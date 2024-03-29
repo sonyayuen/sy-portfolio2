@@ -5,6 +5,7 @@ import sheCodesLaptop from "@/assets/sheCodesLaptop.png";
 import pd from "@/assets/pd.png";
 import ProjectCard from './ProjectCard';
 import Navbar from "../navbar";
+import React from "react";
 //import sheCodesMain from "@/assets/shecodesMain.png";
 import comingsoon from "@/assets/comingsoon.png";
 

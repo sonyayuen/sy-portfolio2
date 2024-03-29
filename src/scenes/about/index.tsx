@@ -1,6 +1,6 @@
 //import ProfilePic from  "@/assets/ProfilePic.png";
 import Navbar from "../navbar";
-
+import React from "react";
 import { CameraIcon } from "@heroicons/react/24/solid";
 import resume from "@/assets/SonyaYuenResume24.pdf";
 
