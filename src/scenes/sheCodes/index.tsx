@@ -286,7 +286,7 @@ const SheCodes = () => {
                         <div className='w-full flex justify-center'>
                             <img src={sheCodesProject} alt="" className='object-cover rounded-3xl' />
                             
-                            
+                            <h1>tetsigndjgndkj</h1>
                             
                         </div>
 
