@@ -9,7 +9,7 @@ import PandaDream from "./scenes/pandaDream";
 
 function App() {
   return (
-  <BrowserRouter basename={"/sy-portfolio2/"} > 
+  <BrowserRouter basename={"/sy-portfolio2"} > 
     <Routes> 
       
       <Route path= "/" element={<Home  />} /> //sets home page

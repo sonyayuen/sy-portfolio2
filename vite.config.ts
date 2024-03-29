@@ -9,5 +9,5 @@ export default defineConfig({
   resolve: {
     alias: [{find: '@', replacement: path.resolve(__dirname, "src")}]
   },
-  base: "/sy-portfolio2/"
+  base: "/sy-portfolio2"
 })
