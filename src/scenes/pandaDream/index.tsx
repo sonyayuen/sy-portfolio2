@@ -3,7 +3,7 @@ import Navbar from "../navbar";
 import pandaMain from "@/assets/pandaDreamMain.png";
 import pandaComparison from "@/assets/pandaComparison.png";
 import pandaPoster from "@/assets/pandaPoster.png";
-import pandaTeam from "@/assets/pandaTeam.png";
+//import pandaTeam from "@/assets/pandaTeam.png";
 import pandaWireframe from "@/assets/pandaWireframe.png";
 import pandaUserflow from "@/assets/pandaUserflow.jpg";
 import pandaInterview from "@/assets/pandaInterview.mp4";
