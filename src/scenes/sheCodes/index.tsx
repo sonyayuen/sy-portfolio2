@@ -10,7 +10,7 @@ import compAnalysis from "@/assets/sheCodesComparison.png";
 import userflow from "@/assets/sheCodesUserFlow.png";
 //import sheCodesLearn from "@/assets/sheCodesLearn.png";
 import sheCodesProject from "@/assets/sheCodesProject.png";
-import sheCodesLearnVid from "@/assets/sheCodesLearnVid2.mp4";
+//import sheCodesLearnVid from "@/assets/sheCodesLearnVid2.mp4";
 
 
 //type Props = {}
@@ -284,7 +284,7 @@ const SheCodes = () => {
                         </div>
 
                         <div className='w-full flex justify-center'>
-                            <video loop muted autoPlay src={sheCodesLearnVid} typeof='video/mp4'>"This browser does not support HTML video"</video>
+                            <img src={sheCodesProject} alt="" className='object-cover rounded-3xl' />
                             
                         </div>
 
