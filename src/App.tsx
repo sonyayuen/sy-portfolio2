@@ -2,14 +2,14 @@ import Home from "@/scenes/home";
 import Projects from "@/scenes/projects";
 import About from "@/scenes/about";
 import Resume from "@/scenes/resume";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SheCodes from "./scenes/sheCodes";
 import PandaDream from "./scenes/pandaDream";
 
 
 function App() {
   return (
-  <HashRouter > 
+  
     <Routes> 
       
       <Route path= "/" element={<Home  />} /> //sets home page
@@ -21,7 +21,7 @@ function App() {
 
     </Routes>
   
-  </HashRouter>
+  
 
   );
   

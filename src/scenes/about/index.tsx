@@ -17,7 +17,7 @@ const About = () => {
         <div className="flex flex-row gap-8   h-[600px] ">
           <div className="flex flex-col gap-8 justify-center  w-2/3 ">
           
-              <div className="flex flex-col gap-4 text-lg dark:text-white  bg-[#E3F0FF]  p-8  rounded-3xl outline-4">
+              <div className="flex flex-col gap-4 text-lg dark:text-white  bg-[#AABED4]  p-8  rounded-3xl outline-4">
                 <h1 className="font-bold text-2xl">I'm Sonya Yuen,</h1>
                 <p className="">I’m a computer science and industrial design student at Georgia Tech. I am passionate about using technology to build both innovative and creative solutions.</p>
                 <p> Outside of school, I love to travel. I previously completed a Co-Op at Delta Air Lines which was an incredible experience. I got to see and experience so many different places and cultures, while being able to develop my engineering skill set.</p>

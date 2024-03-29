@@ -85,7 +85,7 @@ const Home = () => {
 
                             {/* QUOTE & LINKEDIN & GT */}
                             <div className="flex flex-col w-3/5 sm:gap-8 gap-2 "> 
-                                <div className="h-3/5 rounded-3xl flex flex-col md:text-md text-sm items-center text-center justify-center gap-2 bg-[#E3F0FF] text-black p-4">
+                                <div className="h-3/5 rounded-3xl flex flex-col md:text-md text-sm items-center text-center justify-center gap-2 bg-[#AABED4] text-black p-4">
                                     <p>"The true sign of intelligence is not knowledge but imagination”</p>
                                     <p>Albert Einstein</p>
                                 </div>

@@ -362,10 +362,7 @@ const PandaDream = () => {
 
                     <div className='flex flex-row justify-center items-center gap-8 p-4'>
                         <div className='flex flex-col'>
-                            <h2 className='text-lg'>Team</h2>
-                            <div className=' flex justify-center'>
-                                <h1>sonya</h1>
-                            </div>
+                            
                         </div>
                     </div>
 
