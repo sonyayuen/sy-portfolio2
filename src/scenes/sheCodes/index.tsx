@@ -10,7 +10,7 @@ import compAnalysis from "@/assets/sheCodesComparison.png";
 import userflow from "@/assets/sheCodesUserFlow.png";
 //import sheCodesLearn from "@/assets/sheCodesLearn.png";
 import sheCodesProject from "@/assets/sheCodesProject.png";
-import sheCodesLearnVid from "@/assets/sheCodesLearnVid.mp4";
+import sheCodesLearnVid from "@/assets/sheCodesLearnVid2.mp4";
 
 
 //type Props = {}
