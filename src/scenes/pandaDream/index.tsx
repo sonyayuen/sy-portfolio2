@@ -364,7 +364,7 @@ const PandaDream = () => {
                         <div className='flex flex-col'>
                             <h2 className='text-lg'>Team</h2>
                             <div className=' flex justify-center'>
-                                <img src={pandaTeam} alt="" className='object-cover' />
+                                
                             </div>
                         </div>
                     </div>
