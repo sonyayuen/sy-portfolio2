@@ -10,26 +10,34 @@ const About = () => {
   return (
     <section className="flex justify-center bg-white dark:bg-[#181A21]  sm:p-8 p-4 h-full overscroll-y-none ">
 
-      <div className="flex flex-col h-[750px]  items-center   p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%]">   
+      <div className="flex flex-col md:h-[750px]  items-center   p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%]">   
 
         <Navbar></Navbar>
        
-        <div className="flex flex-row gap-8   h-[600px] ">
-          <div className="flex flex-col gap-8 justify-center  w-2/3 ">
-          
-              <div className="flex flex-col gap-4 text-lg dark:text-white  bg-[#AABED4]  p-8  rounded-3xl outline-4">
-                <h1 className="font-bold text-2xl">I'm Sonya Yuen,</h1>
-                <p className="">I’m a computer science and industrial design student at Georgia Tech. I am passionate about using technology to build both innovative and creative solutions.</p>
-                <p> Outside of school, I love to travel. I previously completed a Co-Op at Delta Air Lines which was an incredible experience. I got to see and experience so many different places and cultures, while being able to develop my engineering skill set.</p>
-                <p>I love that computer science and industrial design have given me the tools to express my creativity in so many ways- from building video games, to designing learning platforms, and so much more</p>
-              </div>
 
-            <div className="flex flex-row gap-8  ">
+        <div className="flex  justify-center items-center md:flex-row flex-col sm:gap-8 gap-2   md:h-[600px] ">
+
+          {/* LEFT SIDE */}
+          <div className="flex flex-col sm:gap-8 gap-2 justify-center  md:w-2/3 ">
+          
+            {/* ABOUT SECTION */}
+            <div className="flex flex-col gap-4 text-lg dark:text-white  bg-[#AABED4]  p-8  rounded-3xl outline-4">
+              <h1 className="font-bold text-2xl">I'm Sonya Yuen,</h1>
+              <p className="">I’m a computer science and industrial design student at Georgia Tech. I am passionate about using technology to build both innovative and creative solutions.</p>
+              <p> Outside of school, I love to travel. I previously completed a Co-Op at Delta Air Lines which was an incredible experience. I got to see and experience so many different places and cultures, while being able to develop my engineering skill set.</p>
+              <p>I love that computer science and industrial design have given me the tools to express my creativity in so many ways- from building video games, to designing learning platforms, and so much more</p>
+            </div>
+
+            <div className="flex flex-row sm:gap-8 gap-2  ">
+
               {/* LETS CONNECT */}
-              <div className="bg-[#F5FFB8]  flex flex-col gap-4 items-center p-8 rounded-3xl w-3/4 ">
+              <div className="bg-[#F5FFB8]  flex flex-col gap-4 items-center p-8 rounded-3xl w-3/4  ">
                 
                 <h1 className="w-full  text-2xl font-semibold text-left">Let's Connect &#128075;</h1>
-                <div className="w-full flex flex-row gap-4 ">
+
+
+                {/* LETS CONNECT BUTTONS */}
+                <div className="w-full flex flex-row gap-4 flex-wrap lg:flex-nowrap ">
                   <div className="outline outline-2 outline-[#181A21] dark:outline-white  rounded-3xl px-2">
                     <p className=" text-black  dark:text-white">sonyayuen235@gmail.com</p> 
                   </div>
@@ -53,7 +61,9 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-1/3 bg-[#FFF2E3] rounded-3xl p-8  gap-8 flex flex-col h-full overflow-y-scroll  ">
+
+          {/* RIGHT SIDE W RESUME SCROLL */}
+          <div className="md:w-1/3 bg-[#FFF2E3] rounded-3xl p-8  gap-8 flex flex-col h-full md:overflow-y-scroll  ">
               <div>
                 <h1 className=" font-semibold text-md uppercase py-2">&#127891; Education</h1>
                 <p className="font-semibold text-[#2F3342]">Georgia Institute of Technology</p>

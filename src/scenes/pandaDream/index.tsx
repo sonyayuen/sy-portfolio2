@@ -19,15 +19,15 @@ const PandaDream = () => {
   return (
     <section className='flex justify-center items-center sm:p-8 p-4 text-black dark:text-white bg-white dark:bg-[#181A21] '>
 
-        <div className='flex flex-col gap-8 justify-center items-center p-4 sm:gap-8  md:max-w-[1000px]  xl:min-w-[75%]  '>
+        <div className='flex flex-col  justify-center items-center p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%] w-full  '>
 
             
 
-            <div className=' w-full'>
-                <Navbar></Navbar>
-            </div>
             
-            <div className='rounded-3xl flex flex-col gap-12  '>
+            <Navbar></Navbar>
+            
+            
+            <div className='rounded-3xl flex flex-col gap-12 justify-center w-full '>
 
                 <div className=' h-[400px]  rounded-3xl  ' >
                     <img src={pandaMain} alt="" className='object-cover h-full w-full  rounded-3xl' />
@@ -70,27 +70,29 @@ const PandaDream = () => {
                     <hr />
 
 
-
+                    {/* PROJECT PROCESS */}
                     <div className='flex flex-col  gap-4'>
+
                         <h4 className='font-semibold text-xl uppercase'>Project Process</h4>
-                        <div className='flex flex-row gap-8 justify-around'>
-                            <div className='rounded-full bg-stone-200 w-32 h-32 flex justify-center items-center text-center '>
+
+                        <div className='flex md:flex-row flex-col gap-8 md:justify-around items-center'>
+                            <div className='rounded-full bg-stone-200 md:w-32 w-full h-32 flex justify-center items-center text-center '>
                                 <h1 className='text-black' >Customer Discovery</h1>
                             </div>
 
-                            <div className='rounded-full bg-stone-200 w-32 h-32 flex justify-center items-center text-center'>
+                            <div className='rounded-full bg-stone-200 md:w-32 w-full h-32 flex justify-center items-center text-center'>
                                 <h1 className='' >Research</h1>
                             </div>
 
-                            <div className='rounded-full bg-stone-200 w-32 h-32 flex justify-center items-center '>
+                            <div className='rounded-full bg-stone-200 md:w-32 w-full h-32 flex justify-center items-center '>
                                 <h1 className='' >Ideation</h1>
                             </div>
 
-                            <div className='rounded-full bg-stone-200 w-32 h-32 flex justify-center items-center text-center'>
+                            <div className='rounded-full bg-stone-200 md:w-32 w-full h-32 flex justify-center items-center text-center'>
                                 <h1 className='' >Concept Selection</h1>
                             </div>
 
-                            <div className='rounded-full bg-stone-200 w-32 h-32 flex justify-center items-center text-center '>
+                            <div className='rounded-full bg-stone-200 md:w-32 w-full h-32 flex justify-center items-center text-center '>
                                 <h1 className='' >Working Prototype</h1>
                             </div>
                         </div>

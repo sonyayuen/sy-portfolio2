@@ -27,8 +27,9 @@ const Home = () => {
 
                 <Navbar ></Navbar>
 
-                <div className=" flex justify-center  md:flex-row flex-col sm:gap-8 gap-2   h-[600px]   "> 
+                <div className=" flex justify-center  md:flex-row flex-col sm:gap-8 gap-2   md:h-[600px]   "> 
                     {/* bg-lime-50 sm:bg-lime-200 md:bg-lime-600   lg:bg-slate-600 xl:bg-orange-500  */}
+                    
                     {/* Left Column */}
                     <div className="flex md:flex-col flex-row rounded-3xl  justify-between md:w-1/3  sm:gap-8 gap-2  sm:bg-transparent ">
 

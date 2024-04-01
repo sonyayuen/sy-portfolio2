@@ -17,36 +17,34 @@ import sheCodesProject from "@/assets/sheCodesProject.png";
 
 const SheCodes = () => {
   return (
-    <section className='flex justify-center items-center sm:p-8 p-4 text-black dark:text-white bg-white dark:bg-[#181A21] '>
+    <section className='flex justify-center bg-white dark:bg-[#181A21]  sm:p-8 p-4  overscroll-y-none  '>
 
-        <div className='flex flex-col gap-8 justify-center items-center p-4 sm:gap-8  md:max-w-[1000px]  xl:min-w-[75%]  '>
+        <div className='flex flex-col justify-center items-center p-4 sm:gap-8 gap-2  md:max-w-[1000px]  xl:min-w-[75%]  w-full '>
 
             
-
-            <div className=' w-full'>
-                <Navbar></Navbar>
-            </div>
+            <Navbar></Navbar>
             
-            <div className='rounded-3xl flex flex-col gap-12  '>
+            
+            <div className='rounded-3xl flex flex-col justify-center gap-12 w-full '>
 
                 <div className=' h-[400px]  rounded-3xl  ' >
                     <img src={sheCodesMain} alt="" className='object-cover h-full w-full  rounded-3xl' />
                 </div>
 
                 {/* SHECODES INTRO */}
-                <div className='flex flex-col gap-8 justify-center  p-4 '>
+                <div className='flex flex-col sm:gap-8 gap-2 justify-center w-500 p-4 '>
 
-                    <h1 className='text-4xl  font-bold '>SheCodes</h1>
+                    <h1 className='flex text-4xl  font-bold '>SheCodes</h1>
 
-                    <div className='flex flex-row  gap-8 '>
-                        <div className='flex flex-col w-3/4 gap-4'> 
-                            <div >
+                    <div className='flex sm:flex-row flex-col  gap-8 '>
+                        <div className='flex flex-col md:w-3/4 gap-4'> 
+                            <div className='flex flex-col' >
                                 <h4 className='font-semibold text-xl'>OVERVIEW</h4>
                                 <p className='text-lg'>The goal of this project was to design an educational technology platform targeted at teaching girls computer science. SheCodes is a project that combines research, purposeful learning approaches, and user centered design.</p>
                             </div>
 
                             <div>
-                            <h4 className='font-semibold text-xl'>TYPE</h4>
+                                <h4 className='font-semibold text-xl'>TYPE</h4>
                                 <p className='text-lg'>Educational Technology</p>
                                 <p className='text-lg'>UI/UX</p>
             
@@ -54,7 +52,7 @@ const SheCodes = () => {
                         </div>
 
                         <div className='flex flex-col  gap-4'>
-                            <div>
+                            <div className='flex flex-col'>
                                 <h4 className='font-semibold text-xl'>ROLE</h4>
                                 <p className='text-lg'>UX Designer</p>
                                 <p className='text-lg'>Researcher</p>
@@ -67,30 +65,33 @@ const SheCodes = () => {
                             </div>
                         </div>
                     </div>
+
                     <hr />
 
 
-
+                    {/* DEISGN PROCESS */}
                     <div className='flex flex-col  gap-4'>
+
                         <h4 className='font-semibold text-xl uppercase'>Design Process</h4>
-                        <div className='flex flex-row gap-8 justify-around'>
-                            <div className='rounded-full bg-[#B8BFFF] w-32 h-32 flex justify-center items-center '>
+
+                        <div className='flex md:flex-row flex-col gap-8 md:justify-around items-center'>
+                            <div className='rounded-full bg-[#B8BFFF] md:w-32 w-full h-32 flex justify-center items-center '>
                                 <h1 className='text-white' >Understand</h1>
                             </div>
 
-                            <div className='rounded-full bg-[#B8BFFF] w-32 h-32 flex justify-center items-center '>
+                            <div className='rounded-full bg-[#B8BFFF] md:w-32 w-full h-32 flex justify-center items-center '>
                                 <h1 className='text-white' >Research</h1>
                             </div>
 
-                            <div className='rounded-full bg-[#B8BFFF] w-32 h-32 flex justify-center items-center '>
+                            <div className='rounded-full bg-[#B8BFFF] md:w-32 w-full h-32 flex justify-center items-center '>
                                 <h1 className='text-white' >Design</h1>
                             </div>
 
-                            <div className='rounded-full bg-[#B8BFFF] w-32 h-32 flex justify-center items-center '>
+                            <div className='rounded-full bg-[#B8BFFF] md:w-32 w-full h-32 flex justify-center items-center '>
                                 <h1 className='text-white' >Learn</h1>
                             </div>
 
-                            <div className='rounded-full bg-[#B8BFFF] w-32 h-32 flex justify-center items-center '>
+                            <div className='rounded-full bg-[#B8BFFF] md:w-32 w-full h-32 flex justify-center items-center '>
                                 <h1 className='text-white' >Iterate</h1>
                             </div>
                         </div>
@@ -110,9 +111,9 @@ const SheCodes = () => {
                        
                     </div>
 
-                    <div className='flex flex-row gap-8  h-full text-black '>
+                    <div className='flex md:flex-row flex-col gap-8  h-full text-black '>
 
-                        <div className='flex flex-col w-1/3  bg-slate-200 p-8  rounded-3xl items-center justify-center gap-2'>
+                        <div className='flex flex-col md:w-1/3  bg-slate-200 p-8  rounded-3xl items-center justify-center gap-2'>
                             
                             <p className='text-4xl font-bold'>20%</p>
                             <p className='text-center'>of all computer science jobs are held by women</p>
@@ -120,13 +121,13 @@ const SheCodes = () => {
                         </div>
 
 
-                        <div className='flex flex-col w-1/3  bg-slate-200 p-8 rounded-3xl items-center justify-center gap-2'>
+                        <div className='flex flex-col md:w-1/3  bg-slate-200 p-8 rounded-3xl items-center justify-center gap-2'>
                             <p className='text-4xl font-bold'>22%</p>
                             <p className='text-center'>of engineering undergraduates are female</p>
                             
                         </div>
 
-                        <div className='flex flex-col w-1/3  bg-slate-200 p-8 rounded-3xl items-center justify-center gap-2'>
+                        <div className='flex flex-col md:w-1/3  bg-slate-200 p-8 rounded-3xl items-center justify-center gap-2'>
                             <p className='text-4xl font-bold'>30%</p>
                             <p className='text-center'>of students who take the AP CS exam are female</p>
                             
