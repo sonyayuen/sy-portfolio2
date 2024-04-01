@@ -34,7 +34,7 @@ const projects: Array<ProjectType> = [
         "A fun and exciting Game Boy Advance platformer game developed using C [Coming Soon]",
       image: citygirl,
       color: "bg-[#B8BFFF]",
-      link: "/sheCodes",
+      link: "/citygirl",
     },
     {
       name: "Food Friends",

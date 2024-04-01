@@ -5,6 +5,7 @@ import Resume from "@/scenes/resume";
 import { Routes, Route } from "react-router-dom";
 import SheCodes from "./scenes/sheCodes";
 import PandaDream from "./scenes/pandaDream";
+import CityGirl from "./scenes/citygirl";
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <Route path= "resume" element={<Resume  />} />
       <Route path="sheCodes" element={<SheCodes />} />
       <Route path="pandaDream" element={<PandaDream />} />
+      <Route path="citygirl" element={<CityGirl />} />
+
 
     </Routes>
   
