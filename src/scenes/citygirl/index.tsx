@@ -18,7 +18,7 @@ const CityGirl = () => {
             <Navbar></Navbar>
 
 
-            <a href="https://gba.ninja/?autorun=citygirl.gba" className="bg-slate-300">
+            <a href="https://gba.ninja/?autorun=https://sonyayuen.com/citygirl.gba&exclusive" className="bg-slate-300">
                 <h1>City Girl Online Player</h1>
             </a>
             
