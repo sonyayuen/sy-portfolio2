@@ -18,9 +18,21 @@ const CityGirl = () => {
             <Navbar></Navbar>
 
 
-            <a href="https://gba.ninja/?autorun=https://sonyayuen.com/citygirl.gba&exclusive" className="bg-slate-300">
-                <h1>City Girl Online Player</h1>
-            </a>
+
+            <div className="flex flex-col justify-center">
+              <h1 className="text-xl">City Girl</h1>
+              <p>City Girl is a Game Boy Advance game made using C for a final project in the Media Device Architecture class at Georgia Tech. The game is a 2D platformer game with parallax scrolling, custom sprite's and animations, and 3 mini games!</p>
+            </div>
+
+            <div>
+            <iframe
+              width="860"
+              height="484"
+              src="https://gba.ninja/?autorun=https://sonyayuen.github.io/citygirl/Project.gba&exclusive"
+            >
+
+            </iframe>
+            </div>
             
             
            

@@ -63,7 +63,7 @@ const Projects = () => {
 
        
         
-        <div className="overflow-scroll snap-y flex flex-col gap-8 rounded-3xl ">
+        <div className="overflow-y-scroll snap-y flex flex-col gap-8 rounded-3xl ">
           {projects.map((item: ProjectType, index) => (
               <ProjectCard
                 key={`${item.name}-${index}`}
