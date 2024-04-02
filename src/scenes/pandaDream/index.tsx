@@ -10,6 +10,7 @@ import pandaInterview from "@/assets/pandaInterview.mp4";
 import pandaGraph1 from "@/assets/pandaGraph1.png";
 import pandaGraph2 from "@/assets/pandaGraph2.png";
 import pandaWhiteboard from "@/assets/pandaWhiteboard.jpg";
+import pandaTeam from "@/assets/pandaTeam.png";
 import React from "react";
 
 
@@ -30,7 +31,7 @@ const PandaDream = () => {
             <div className='rounded-3xl flex flex-col gap-12 justify-center w-full '>
 
                 <div className=' h-[400px]  rounded-3xl  ' >
-                    <img src={pandaMain} alt="" className='object-cover h-full w-full  rounded-3xl' />
+                    <img src={pandaTeam} alt="" className='object-cover h-full w-full  rounded-3xl' />
                 </div>
 
                 {/* INTRO */}
