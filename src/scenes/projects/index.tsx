@@ -17,7 +17,7 @@ const projects: Array<ProjectType> = [
       description:
         "An educational technology platform designed to teach girls computing",
       image: sheCodesLaptop,
-      color: "bg-stone-200",
+      color: "hover:bg-[#1A223A]",
       link: "/sheCodes",
     },
     {
@@ -25,7 +25,7 @@ const projects: Array<ProjectType> = [
       description:
       "An innovative sleep system a part of Georgia Tech's CREATE-X capstone class ",
       image: pd,
-      color: "bg-[#E3F0FF]",
+      color: "hover:bg-[#1A223A]",
       link: "/pandaDream",
     },
     {
@@ -33,7 +33,7 @@ const projects: Array<ProjectType> = [
       description:
         "A fun and exciting Game Boy Advance platformer game developed using C [Coming Soon]",
       image: citygirl,
-      color: "bg-[#B8BFFF]",
+      color: "hover:bg-[#1A223A]",
       link: "/citygirl",
     },
     {
@@ -41,7 +41,7 @@ const projects: Array<ProjectType> = [
       description:
         "coming soon",
       image: comingsoon,
-      color: "bg-[#E3F0FF]",
+      color: "hover:bg-[#1A223A]",
       link: "/sheCodes",
     },
    
@@ -52,7 +52,7 @@ const projects: Array<ProjectType> = [
 
 const Projects = () => {
   return (
-    <section className="flex justify-center  sm:p-8 p-4  overscroll-y-none  bg-white dark:bg-[#181A21]">
+    <section className="flex justify-center  sm:p-8 p-4  overscroll-y-none  bg-[#FFF9F5] dark:bg-[#181A21]">
 
       
       <div className="h-[750px] flex flex-col  items-center   p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%] ">

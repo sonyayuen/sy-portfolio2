@@ -35,13 +35,13 @@ const Home = () => {
 
 
                         {/* PROFILE PIC */}
-                        <div className="md:h-2/3 h-[300px]   w-2/5 md:w-full ">
+                        <div className="md:h-2/3 h-[300px]   w-2/5 md:w-full  ">
                             <img alt="profilePic" src = {ProfilePic} 
-                            className="object-cover rounded-3xl h-full w-full" />
+                            className="object-cover rounded-3xl h-full w-full outline outline-2 outline-black" />
                         </div>
 
                         {/* ABOUT ME CAPTION */}
-                        <div className='flex flex-col  gap-4 bg-[#B8BFFF] justify-center rounded-3xl  text-white md:h-1/3 w-3/5 md:w-full'>
+                        <div className='flex flex-col  gap-4 hover:bg-[#B8BFFF] outline outline-2 outline-black justify-center rounded-3xl  text-black md:h-1/3 w-3/5 md:w-full'>
                             <p className="md:text-3xl text-2xl underline px-4 pt-4 font-bold  decoration-2 underline-offset-8 hover:decoration-[#FFF8B8] hover:text-[#FFF8B8]">Hi, I'm Sonya Yuen</p>
                             <p className="md:text-lg flex px-4 pb-4">I’m a computer science and industrial design student at Georgia Tech.</p>
                         </div>
@@ -57,7 +57,7 @@ const Home = () => {
                         <div className="flex flex-col h-3/5 sm:gap-8 gap-2   ">
 
                             {/* PROJECT CARD */}
-                            <div className=" bg-stone-200 rounded-3xl flex flex-row flex-wrap p-4 h-full justify-center items-center "> 
+                            <div className=" hover:bg-stone-200  outline outline-2 outline-black rounded-3xl flex flex-row flex-wrap p-4 h-full justify-center items-center "> 
 
                                 <div className="flex flex-col w-3/5 justify-center gap-2 p-4 ">
                                     <p className="md:text-3xl text-2xl font-bold">SheCodes</p>
@@ -87,7 +87,7 @@ const Home = () => {
 
                             {/* QUOTE & LINKEDIN & GT */}
                             <div className="flex flex-col w-3/5 sm:gap-8 gap-2 "> 
-                                <div className="h-3/5 rounded-3xl flex flex-col md:text-md text-sm items-center text-center justify-center gap-2 bg-[#AABED4] text-black p-4">
+                                <div className="h-3/5 rounded-3xl flex flex-col md:text-md text-sm items-center text-center justify-center gap-2 hover:bg-[#AABED4] outline outline-2 outline-black text-black p-4">
                                     <p>"The true sign of intelligence is not knowledge but imagination”</p>
                                     <p>Albert Einstein</p>
                                 </div>
@@ -96,7 +96,7 @@ const Home = () => {
 
 
                                     {/* GO JACKETS */}
-                                    <div className="bg-[#F5FFB8] rounded-3xl w-2/3 flex flex-row items-center justify-center gap-4 p-4 ">
+                                    <div className="hover:bg-[#F5FFB8] outline outline-2 outline-black rounded-3xl w-2/3 flex flex-row items-center justify-center gap-4 p-4 ">
                                         <p className="text-black md:text-xl text-sm " >Go Jackets</p>
                                         <img src={gtBuzz} alt="" className="object-contain h-full w-1/4 "/>
                                     </div>
@@ -106,7 +106,7 @@ const Home = () => {
 
 
                                     
-                                    <div className="bg-[#1665AC] rounded-3xl w-1/3 flex justify-center items-center">
+                                    <div className="bg-[#1665AC] rounded-3xl w-1/3 flex justify-center items-center outline outline-2 outline-black">
 
                                         <a href="https://www.linkedin.com/in/sonyayuen" target="_blank">
 
@@ -124,7 +124,7 @@ const Home = () => {
                             {/* PIC GALLERY */}
                             <div className="w-2/5 ">
                                 <img alt="cdmx view" src = {cdmxView} 
-                                    className='rounded-3xl  h-full w-full object-cover' />
+                                    className='rounded-3xl  h-full w-full object-cover outline outline-2 outline-black' />
                             </div>
 
 

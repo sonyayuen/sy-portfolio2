@@ -1,4 +1,4 @@
-import Home from "@/scenes/home";
+import Home2 from "@/scenes/home2";
 import Projects from "@/scenes/projects";
 import About from "@/scenes/about";
 import Resume from "@/scenes/resume";
@@ -13,7 +13,7 @@ function App() {
   
     <Routes> 
       
-      <Route path= "/" element={<Home  />} /> //sets home page
+      <Route path= "/" element={<Home2  />} /> //sets home page
       <Route path= "projects" element={<Projects  />} />
       <Route path= "about" element={<About  />} />
       <Route path= "resume" element={<Resume  />} />
