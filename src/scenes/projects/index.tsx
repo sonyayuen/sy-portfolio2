@@ -17,7 +17,7 @@ const projects: Array<ProjectType> = [
       description:
         "An educational technology platform designed to teach girls computing",
       image: sheCodesLaptop,
-      color: "hover:bg-[#1A223A]",
+      color: "bg-[#324376]",
       link: "/sheCodes",
     },
     {
@@ -25,7 +25,7 @@ const projects: Array<ProjectType> = [
       description:
       "An innovative sleep system a part of Georgia Tech's CREATE-X capstone class ",
       image: pd,
-      color: "hover:bg-[#1A223A]",
+      color: "bg-[#324376]",
       link: "/pandaDream",
     },
     {
@@ -33,7 +33,7 @@ const projects: Array<ProjectType> = [
       description:
         "A fun and exciting Game Boy Advance platformer game developed using C [Coming Soon]",
       image: citygirl,
-      color: "hover:bg-[#1A223A]",
+      color: "bg-[#324376]",
       link: "/citygirl",
     },
     {
@@ -41,7 +41,7 @@ const projects: Array<ProjectType> = [
       description:
         "coming soon",
       image: comingsoon,
-      color: "hover:bg-[#1A223A]",
+      color: "bg-[#324376]",
       link: "/sheCodes",
     },
    

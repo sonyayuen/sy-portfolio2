@@ -17,7 +17,7 @@ const ProjectCard = ({ name, description, image,color,link}: Props) => {
 
     <Link to={link} className=" w-full p-2 " >
 
-      <div className={ `${color}  font-serif italic rounded-3xl flex md:flex-nowrap flex-wrap items-center justify-items-center justify-around  p-8  gap-8 shrink   md:h-[350px] w-full outline outline-2 outline-[#324376]  text-[#324376] hover:text-white`}> 
+      <div className={ `${color}  font-serif italic rounded-3xl flex md:flex-nowrap flex-wrap items-center justify-items-center justify-around  p-8  gap-8 shrink   md:h-[350px] w-full outline outline-2 outline-[#324376]  text-white hover:decoration-white`}> 
 
         
           {/* Left part with text */}
@@ -27,8 +27,8 @@ const ProjectCard = ({ name, description, image,color,link}: Props) => {
 
             {/* Project Tags */}
             <div className="flex flex-row  gap-4">
-              <p className="outline outline-2 rounded-3xl outline-[#324376] hover:outline-white px-2">UI/UX</p>
-              <p className="outline outline-2 rounded-3xl outline-[#324376]  hover:outline-white px-2">Research</p>
+              <p className="outline outline-2 rounded-3xl outline-white px-2">UI/UX</p>
+              <p className="outline outline-2 rounded-3xl outline-white px-2">Research</p>
 
 
             </div>
@@ -36,9 +36,9 @@ const ProjectCard = ({ name, description, image,color,link}: Props) => {
           
 
           {/*Right part app image */}
-          <div className="  md:w-3/5 h-full sm:w-full  flex items-center ">
+          <div className="  md:w-3/5 h-full sm:w-full  flex items-center  ">
             <img alt={`${image}`} src = {image} 
-            className='object-contain w-full h-full ' />                
+            className='object-contain w-full h-full hover:transition hover:ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 ' />                
           </div>
 
         

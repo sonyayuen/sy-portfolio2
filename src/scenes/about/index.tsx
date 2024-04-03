@@ -3,6 +3,7 @@ import Navbar from "../navbar";
 import React from "react";
 import { CameraIcon } from "@heroicons/react/24/solid";
 import resume from "@/assets/SonyaYuenResume24.pdf";
+import { Link } from "react-router-dom";
 
 
 
@@ -55,9 +56,9 @@ const About = () => {
                 
               </div>
 
-              <div className="bg-[#324376] gap-8 w-1/4 rounded-3xl flex justify-center items-center">
+              <Link to='/photoGallery' className="bg-[#324376] gap-8 w-1/4 rounded-3xl flex justify-center items-center">
                 <CameraIcon className="text-white w-1/4 h-1/4"></CameraIcon>
-              </div>
+              </Link>
             </div>
           </div>
 

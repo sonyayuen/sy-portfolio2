@@ -2,8 +2,6 @@
 import Navbar from "../navbar";
 
 
-
-
 //type Props = {}
 
 const CityGirl = () => {
@@ -27,21 +25,18 @@ const CityGirl = () => {
             <div>
               
 
-            <iframe
-              width="860"
-              height="484"
-              src="https://gba.ninja/?autorun=https://sonyayuen.github.io/citygirl/Project.gba"
-            >
-              
+              <iframe 
+                width="1000"
+                height="484"
+                src="https://gba.ninja/?autorun=https://sonyayuen.github.io/citygirl/Project.gba"
+              >City Girl Online Game Emulator </iframe>
 
-            </iframe>
-
-            <p>Start: Enter</p>
-            <p>Shoot/A: Z</p>
-            <p>Select/Pause/Play: Delete</p>
-            <p>Jump/Climb Ladder: Up</p>
-            <p>Move Left: Left</p>
-            <p>Move Right: Right</p>
+              {/* <p>Start: Enter</p>
+              <p>Shoot/A: Z</p>
+              <p>Select/Pause/Play: Delete</p>
+              <p>Jump/Climb Ladder: Up</p>
+              <p>Move Left: Left</p>
+              <p>Move Right: Right</p> */}
 
             </div>
             
