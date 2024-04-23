@@ -38,6 +38,7 @@ const SheCodes = () => {
 
                     <div className='flex sm:flex-row flex-col  gap-8 '>
                         <div className='flex flex-col md:w-3/4 gap-4'> 
+                        
                             <div className='flex flex-col' >
                                 <h4 className='font-semibold text-xl'>OVERVIEW</h4>
                                 <p className='text-lg'>The goal of this project was to design an educational technology platform targeted at teaching girls computer science. SheCodes is a project that combines research, purposeful learning approaches, and user centered design.</p>
@@ -147,7 +148,7 @@ const SheCodes = () => {
                 <div className='  flex flex-col gap-4  p-4'>
                     <div className='flex flex-col'>
                         <h2 className='text-xl font-semibold '>GOALS</h2>
-                        <p className='text-lg'>SheCodes targets increasing female computer science students at the high school level in hopes of bringing more women into the industry. In order to effectively design a platform for high school girls, it was integral to understand their unique values and focus on these 2 main goals:</p>
+                        <p className='text-lg'>SheCodes has a goal of increasing female computer science students at the high school level in hopes of bringing more women into the industry. In order to effectively design a platform for high school girls, it was integral to understand their unique values and focus on integrating these 2 main ideas:</p>
                     </div>
                     <ul className='list-decimal list-inside bg-indigo-600 text-white rounded-3xl p-8'>
                         <li className='font-semibold text-lg'>Multimodal learning Strategies</li>
@@ -178,7 +179,7 @@ const SheCodes = () => {
                 {/* COMPETITOR ANALYSIS */}
                 <div className='flex flex-col gap-2  p-4'>
                     <h2 className='text-xl font-semibold uppercase '>Competitor Analysis</h2>
-                    <p className='text-lg'>There are many computer science learning platforms in the market. An analysis was used to rank the various platforms against the criteria valued for our platform- multimodal learning, female empowerment, cost, accessibility. </p>
+                    <p className='text-lg'>In order to design a solution, it was important to understand the current landscape of learning resources. There are many different computer science learning platforms in the market. An analysis was used to rank the various platforms against the criteria valued for our platform- multimodal learning, female empowerment, cost, accessibility. </p>
 
                         <img src={compAnalysis} alt="" className='' />
 

@@ -16,7 +16,7 @@ const About = () => {
         <Navbar></Navbar>
        
 
-        <div className="flex  justify-center items-center md:flex-row flex-col sm:gap-8 gap-2   md:h-[600px] ">
+        <div className="flex  justify-center items-center md:flex-row flex-col sm:gap-8 gap-2   md:h-[600px] overflow-y-scroll ">
 
           {/* LEFT SIDE */}
           <div className="flex flex-col sm:gap-8 gap-2 justify-center  md:w-2/3 ">
@@ -34,7 +34,7 @@ const About = () => {
               {/* LETS CONNECT */}
               <div className="bg-[#324376]  flex flex-col gap-4 items-center p-8 rounded-3xl w-3/4  ">
                 
-                <h1 className="w-full text-white text-2xl font-semibold text-left">Let's Connect &#128075;</h1>
+                <h1 className="w-full text-white  font-serif italic text-2xl text-left">Let's Connect &#128075;</h1>
 
 
                 {/* LETS CONNECT BUTTONS */}
@@ -49,9 +49,9 @@ const About = () => {
                     
                   </a>
 
-                  <a href={resume} target="_blank"  className="outline outline-2  outline-white  rounded-3xl px-2">
-                    <p className=" text-white">resume</p>
-                  </a>
+                  <Link to="https://github.com/sonyayuen" target="_blank"  className="outline outline-2  outline-white  rounded-3xl px-2">
+                    <p className=" text-white">github</p>
+                  </Link>
                 </div>
                 
               </div>

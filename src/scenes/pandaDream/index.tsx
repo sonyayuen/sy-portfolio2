@@ -23,8 +23,6 @@ const PandaDream = () => {
         <div className='flex flex-col  justify-center items-center p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%] w-full  '>
 
             
-
-            
             <Navbar></Navbar>
             
             

@@ -9,7 +9,11 @@ import React from "react";
 //import sheCodesMain from "@/assets/shecodesMain.png";
 import comingsoon from "@/assets/comingsoon.png";
 import cdmx from "@/assets/cdmxView.png";
-import { DragDropContext } from 'react-beautiful-dnd';
+
+
+
+
+
 
 // Array of my prpjects, makes it easier to add later bc can map array to component later
 const projects: Array<ProjectType> = [
@@ -59,40 +63,7 @@ const PhotoGallery = () => {
       <div className="h-[750px] flex flex-col  items-center   p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%] ">
 
         <Navbar></Navbar>
-        <h1>Draggable area here</h1>
-
-        {/* <DragDropContext onDragEnd={handleOnDragEnd}>
-
-
-
-        </DragDropContext> */}
-
-
-        <div className="bg-slate-200 w-[1000px] h-[600px] ">
-
-            
-                <div className=" rounded-3xl h-[400px] bg-slate-800 w-[400px] text-white flex justify-center items-center ">
-                    <h1>Box 1</h1>
-
-                </div>
-
-       
-
-           
-                    <div className="rounded-3xl h-[400px] bg-slate-800 w-[300px] text-white flex justify-center items-center ">
-                        <img src={cdmx} alt="" draggable="false" />
-
-                    </div>
-
-      
-
-           
-
-
-             
-
-
-        </div>
+        
 
         
 

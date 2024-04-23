@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
     "@heroicons/react": "^2.1.1",
     "@types/react-beautiful-dnd": "^13.1.8",
     "framer-motion": "^11.0.6",

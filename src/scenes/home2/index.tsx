@@ -92,24 +92,16 @@ const Home2 = () => {
                         {/* projects blurb */}
                         <div className='flex flex-col text-white  rounded-3xl   md:h-1/3 h-[300px] w-3/5 md:w-full overflow-y-scroll snap-y snap-mandatory  '>
                             
-                            
-                            
-
+                        
                             
                             <div className="p-8 h-full bg-[#324376] rounded-3xl snap-start snap-always text-white flex flex-col justify-center shrink-0">
                                 <p className="md:text-2xl text-2xl font-serif italic  hover:text-[#FFF8B8]">Projects</p>
                                 <p className="md:text-md ">Scroll to see some of my favorite projects I've worked on.</p>
-                                
-
-
+                    
                             </div> 
 
                                 
-
-                                
                             <div className=" w-full h-full flex flex-col snap-start always shrink-0">
-
-                                
 
                                 {projects.map((item: ProjectType, index) => (
                                     <ProjectCardSmall
@@ -124,10 +116,6 @@ const Home2 = () => {
 
                             </div>
 
-                            
-                                    
-                               
-                            
                             
                         </div>
                         
@@ -166,7 +154,7 @@ const Home2 = () => {
                             <div className="flex flex-col w-3/5 sm:gap-8 gap-2 "> 
                                 
 
-                                <div className="flex flex-row sm:gap-6 gap-2  h-2/5  ">
+                                <div className="flex flex-row sm:gap-6 gap-2  h-1/3  ">
 
 
                                     {/* GO JACKETS */}
@@ -177,9 +165,6 @@ const Home2 = () => {
 
 
                                     {/* LINKEDIN LOGO */}
-
-
-                                    
                                     <div className="bg-[#324376] text-white rounded-3xl w-1/3 flex justify-center items-center ">
 
                                         <a href="https://www.linkedin.com/in/sonyayuen" target="_blank">
@@ -192,7 +177,9 @@ const Home2 = () => {
 
                                 </div>
 
-                                <div className="h-3/5 rounded-3xl flex flex-col md:text-md text-sm justify-center gap-4 bg-[#324376] text-white p-4">
+
+                                {/* LETS CONNECT */}
+                                <div className="h-2/3 rounded-3xl flex flex-col md:text-md text-sm justify-center gap-2 bg-[#324376] text-white p-8">
 
                                     <h1 className="text-2xl font-serif italic">Let's Connect</h1>
 
