@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="flex justify-center bg-[#FFF9F5] dark:bg-[#181A21]  sm:p-8 p-4 h-full overscroll-y-none ">
+    <section className="flex justify-center  dark:bg-[#181A21]  sm:p-8 p-4 h-full overscroll-y-none ">
 
       <div className="flex flex-col md:h-[750px]  items-center   p-4 sm:gap-8 gap-2 md:max-w-[1000px]  xl:min-w-[75%]">   
 
@@ -23,7 +23,7 @@ const About = () => {
           
             {/* ABOUT SECTION */}
             <div className="flex flex-col gap-4 text-lg text-white   bg-[#324376]  p-8  rounded-3xl outline-4">
-              <h1 className="font-bold  font-serif italic text-2xl">I'm Sonya Yuen,</h1>
+              <h1 className="  font-serif italic text-2xl">I'm Sonya Yuen,</h1>
               <p className="">I’m a computer science and industrial design student at Georgia Tech. I am passionate about using technology to build both innovative and creative solutions.</p>
               <p> Outside of school, I love to travel. I previously completed a Co-Op at Delta Air Lines which was an incredible experience. I got to see and experience so many different places and cultures, while being able to develop my engineering skill set.</p>
               <p>I love that computer science and industrial design have given me the tools to express my creativity in so many ways- from building video games, to designing learning platforms, and so much more</p>

@@ -287,33 +287,7 @@ const PandaDream = () => {
                     </div>
 
 
-                    <div>
-                        <h3 className='text-md font-semibold uppercase '>Functional Requirements</h3>
-                        <p className='text-lg'>The main stakeholders that are identified are the customers, medical experts/research scientists and retailers. The customers are interested in buying our solution to improve their quality of sleep. The medical experts/research scientists provide insight into their research that helps improve the product. PandaDream is working with a sleep researcher, Elyse Carlson, to ensure our solution is backed by research. Retail companies that could potentially sell our product are also stakeholders. Retail companies would be interested in acquiring our product to sell in their stores.
-                        </p>
-                        
-                    </div>
-
-
-                    <div>
-                        <h3 className='text-md font-semibold uppercase '>Detailed Engineering Specifications</h3>
-
-                        <div className='bg-[#594FC6] p-4 rounded-3xl text-white'>
-                        
-                            <ol className='list-decimal list-inside text-lg ml-4 p-4 '>
-                                <li>Product can operate optimally within the temperature range of 40º-100ºF</li>
-                                <li>Product can output 10 grams/sec of air</li>
-                                <li>Product can maintain an apparent temperature between 60º-75ºF</li>
-                                    <ul className='list-disc ml-8 list-inside'>
-                                        <li>Optimal sleeping temperature range is centered around 65 degrees Fahrenheit.</li>
-                                    </ul>
-                                <li>Product can communicate with a remote server to keep track of the user's settings.</li>
-
-
-                            </ol>
-                        </div>
-                        
-                    </div>
+                    
 
                 </div>
 

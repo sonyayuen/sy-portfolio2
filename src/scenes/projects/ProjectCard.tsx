@@ -7,24 +7,28 @@ type Props = {
   image: string;
   color: string;
   link: string;
+  tag1:string;
+  tag2:string;
+  textcolor:string;
+  outlinecolor:string;
 };
    
 
   
-const ProjectCard = ({ name, description, image,color,link}: Props) => {
+const ProjectCard = ({ name, description, image,color,link,tag1,tag2,textcolor,outlinecolor}: Props) => {
   
   return (
 
     <Link to={link} className=" w-full p-2 " >
 
-      <div className={ `${color}  rounded-3xl flex md:flex-nowrap flex-wrap items-center justify-items-center justify-around  p-8  gap-8 shrink   md:h-[350px] w-full outline outline-2 outline-[#324376]  text-white hover:decoration-white`}> 
+      <div className={ `${color}  rounded-3xl flex md:flex-nowrap flex-wrap items-center justify-items-center justify-around  p-8  gap-8 shrink   md:h-[350px] w-full  ${textcolor} hover:decoration-white`}> 
 
         
           {/* Left part with text */}
           <div className="md:h-[150px] md:w-2/5 w-full h-[full] flex flex-col  justify-center gap-4   p-4  ">
 
             <div className="flex flex-col ">
-              <p className="md:text-3xl  font-serif italic  sm:text-2xl text-xl font-semibold">{name}</p>
+              <p className="md:text-3xl  font-serif italic  sm:text-2xl text-xl font-medium">{name}</p>
               <p className="md:text-lg  sm:text-xl text-lg">{description}</p>
 
             </div>
@@ -32,8 +36,8 @@ const ProjectCard = ({ name, description, image,color,link}: Props) => {
 
             {/* Project Tags */}
             <div className="flex flex-row  gap-4">
-              <p className="outline outline-2 rounded-3xl outline-white px-2">UI/UX</p>
-              <p className="outline outline-2 rounded-3xl outline-white px-2">Research</p>
+              <p className={`outline outline-2 rounded-3xl ${outlinecolor} px-2`}>{tag1}</p>
+              <p className={`outline outline-2 rounded-3xl ${outlinecolor} px-2`}>{tag2}</p>
 
 
             </div>

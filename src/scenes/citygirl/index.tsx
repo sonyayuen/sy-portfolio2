@@ -71,6 +71,7 @@ const CityGirl = () => {
 
               </div>
             </div>
+            <hr />
             
           </div>
 
@@ -88,11 +89,11 @@ const CityGirl = () => {
           
 
 
-          {/* City Girl Technical Specs */}
+          {/* Mode 0 SPecifics */}
           <div className=' flex flex-col gap-4  p-4 '>
                   <div className='flex flex-col gap-4 '>
-                      <h2 className='text-xl font-semibold uppercase'>Mode 0</h2>
-                      <p className='text-lg'>CityGirl was programmed in mode 0, a GBA tiled mode which has the below constraints.</p>
+                      <h2 className='text-xl font-semibold uppercase'>Mode 0 Specifics</h2>
+                      <p className='text-lg'>CityGirl was programmed in mode 0, a GBA tiled mode which has the below development constraints.</p>
                       
                   </div>
 
@@ -173,11 +174,11 @@ const CityGirl = () => {
 
 
             <div className="flex flex-row gap-8 justify-center py-4">
-              <img src={spritesheet} alt="" className="w-[155px] h-[155px]" />
-              <img src={cgAnim1} alt="" className="w-[155px] h-[155px]" />
-              <img src={cgAnim2} alt="" className="w-[155px] h-[155px]" />
-              <img src={cgAnim3} alt="" className="w-[155px] h-[155px]" />
-              <video autoPlay controls loop muted src={cgAnimVid} className="w-[155px] h-[155px]" ></video>
+              {/* <img src={spritesheet} alt="" className="w-[155px] h-[155px]" /> */}
+              <img src={cgAnim1} alt="" className="w-[165px]" />
+              <img src={cgAnim2} alt="" className="w-[165px] " />
+              <img src={cgAnim3} alt="" className="w-[165px] " />
+              <video autoPlay controls loop muted src={cgAnimVid} className="w-[165px] " ></video>
               
             </div>
 
@@ -247,6 +248,8 @@ const CityGirl = () => {
 
               <p>In order to play use the following keys: Enter-Start, Z-Shoot, Delete-Select/Pause/Play, Up-Jump/Climb</p>
               
+              
+              
 
 
               <iframe 
@@ -254,6 +257,12 @@ const CityGirl = () => {
                 height="484"
                 src="https://gba.ninja/?autorun=https://sonyayuen.github.io/citygirl/Project.gba"
               >City Girl Online Game Emulator </iframe>
+
+              <div className="flex justify-center">
+                <a href="https://gba.ninja/?autorun=https://sonyayuen.github.io/citygirl/Project.gba" className=" bg-[#FFE1B4] w-fit px-4 rounded-3xl" target="_blank">Play Online Here</a>
+
+              </div>
+              
 
               {/* <p>Start: Enter</p>
               <p>Shoot/A: Z</p>

@@ -150,7 +150,7 @@ const SheCodes = () => {
                         <h2 className='text-xl font-semibold '>GOALS</h2>
                         <p className='text-lg'>SheCodes has a goal of increasing female computer science students at the high school level in hopes of bringing more women into the industry. In order to effectively design a platform for high school girls, it was integral to understand their unique values and focus on integrating these 2 main ideas:</p>
                     </div>
-                    <ul className='list-decimal list-inside bg-indigo-600 text-white rounded-3xl p-8'>
+                    <ul className='list-decimal list-inside bg-[#B8BFFF] text-white rounded-3xl p-8'>
                         <li className='font-semibold text-lg'>Multimodal learning Strategies</li>
                             <ul className='list-disc list-inside ml-8 text-lg'>
                                 <li>Collaborative based learning that promotes social learning and teamwork</li>
@@ -249,6 +249,8 @@ const SheCodes = () => {
 
                 </div>
 
+
+                {/* IDEATION SKETCHES*/}
                 <div className='  flex flex-col gap-4  p-4 justify-center '>
                     <h2 className='text-xl font-semibold'>IDEATION SKETCHES</h2>
                     <img src={sketches} alt="" className='bg-white' />

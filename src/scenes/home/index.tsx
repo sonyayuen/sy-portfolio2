@@ -12,10 +12,6 @@ import React from "react";
 
 
 
-
-
-
-
 const Home = () => {
   return (
     
@@ -37,7 +33,7 @@ const Home = () => {
                         {/* PROFILE PIC */}
                         <div className="md:h-2/3 h-[300px]   w-2/5 md:w-full  ">
                             <img alt="profilePic" src = {ProfilePic} 
-                            className="object-cover rounded-3xl h-full w-full outline outline-2 outline-black" />
+                            className="object-cover rounded-3xl h-full w-full " />
                         </div>
 
                         {/* ABOUT ME CAPTION */}

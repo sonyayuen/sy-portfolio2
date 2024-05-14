@@ -21,21 +21,21 @@ module.exports = {
 
         
       },
-      backgroundImage: (theme) => ({
-        "gradient-yellowred":
-          "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
-        "mobile-home": "url('./assets/HomePageGraphic.png')",
-      }),
+      animation:{
+        marquee: 'marquee 15s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
+      },
+      
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
-      content: {
-        evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
-      },
+      
     },
     screens: {
       /* xs: "640px",
@@ -50,5 +50,5 @@ module.exports = {
       xl: "1280px",
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 };
